@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Immediately Invoke Function Expressions</title>
+    </head>
+    <body>
+        <script>
+           /*  (function () {
+                console.log('Executed');
+            })(); */ //valid invocation
+
+            /* (function () {
+                console.log('Executed');
+            }());   *///valid invocation
+
+           /*  (function () {
+                var employeeName = 'Pavani';
+            })();
+            console.lot(employeeName); */
+
+            var app = {};
+
+            (function(ns){
+                ns.name='None';
+            })(app);
+            console.log(app.name);
+
+        </script>
+    </body>
+</html>

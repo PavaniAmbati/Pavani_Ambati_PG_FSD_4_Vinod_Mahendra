@@ -1,0 +1,160 @@
+{
+  "categoryItems": [
+    {
+      "Category": "BreadBakery",
+      "Item": "croissant",
+      "Price": "1.50",
+      "ProductDescription": "Chocolate croissant",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "JnoNvBn"
+    },
+    {
+      "Category": "BreadBakery",
+      "Item": "muffins",
+      "Price": "5.00",
+      "ProductDescription": "Banana walnut muffuns",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "EO24Xs-"
+    },
+    {
+      "Category": "BreadBakery",
+      "Item": "Burgerbuns",
+      "Price": "6.00",
+      "ProductDescription": "Cheese burgerbuns",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "THQ6EcB"
+    },
+    {
+      "Category": "BreadBakery",
+      "Item": "Bagel",
+      "Price": "3.00",
+      "ProductDescription": "Sesame bagels",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "qOb6UjJ"
+    },
+    {
+      "Category": "BreadBakery",
+      "Item": "Bagel",
+      "Price": "2.00",
+      "ProductDescription": "Plain bagels",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "RUKpz5E"
+    },
+    {
+      "Category": "FruitsVegetables",
+      "Item": "Blueberries",
+      "Price": "2.00",
+      "ProductDescription": "Blueberries",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "btytuy5"
+    },
+    {
+      "Category": "FruitsVegetables",
+      "Item": "Tamatoes",
+      "Price": "2.00",
+      "ProductDescription": "Tamatoes",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "dscsdf56"
+    },
+    {
+      "Category": "FruitsVegetables",
+      "Item": "Bananas",
+      "Price": "2.00",
+      "ProductDescription": "Bananas",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "hgjhgd5"
+    },
+    {
+      "Category": "Grains",
+      "Item": "Rice",
+      "Price": "2.00",
+      "ProductDescription": "Rice",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "vdvff5"
+    },
+    {
+      "Category": "Grains",
+      "Item": "Pasta",
+      "Price": "2.00",
+      "ProductDescription": "Pasta",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "tuytn5"
+    },
+    {
+      "Category": "DairyEggs",
+      "Item": "Milk",
+      "Price": "2.00",
+      "ProductDescription": "Milk",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "fgf66"
+    },
+    {
+      "Category": "DairyEggs",
+      "Item": "Eggs",
+      "Price": "2.00",
+      "ProductDescription": "Eggs",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "kjkjh7"
+    },
+    {
+      "Category": "Frozenfood",
+      "Item": "Frozen berries",
+      "Price": "2.00",
+      "ProductDescription": "Frozen berries",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "sdfdt6"
+    },
+    {
+      "Category": "Frozenfood",
+      "Item": "Frozen peas",
+      "Price": "2.00",
+      "ProductDescription": "Frozen peas",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "ere8ww"
+    },
+    {
+      "Category": "FruitsVegetables",
+      "Item": "Eggplant",
+      "Price": "0.50",
+      "ProductDescription": "Eggplant",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "7CEdz3u"
+    },
+    {
+      "Category": "BreadBakery",
+      "Item": "Bread",
+      "Price": "2",
+      "ProductDescription": "Bread",
+      "Quantity": 0,
+      "TotalPrice": "0.00",
+      "id": "NT-vNRp"
+    }
+  ],
+  "adminusers": [
+    {
+      "Username": "Admin",
+      "Password": "Admin",
+      "id": "fsdfsd"
+    },
+    {
+      "Username": "Jacob",
+      "Password": "pass",
+      "id": "dsfsd"
+    }
+  ]
+}

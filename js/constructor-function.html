@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Constructor Function</title>
+    </head>
+
+    <body>
+        <script>
+           // console.log(typeof Object); //output--> function
+            //var Employee =function(name) {
+                //this.name = name;
+           // }
+
+           // var newEmployee = new Employee('Pavani Ambati');
+            //console.log(typeof newEmployee);
+           // console.log(newEmployee.name);
+
+           //var Employee = function(name,boss) {
+             //  this.name = name;
+               //this.boss = boss;
+           //};
+
+          // var newEmployee = new Employee('Pavani Ambati', 'Kristian Kataila');
+           //console.log(newEmployee.name);
+           //console.log(newEmployee.boss);
+
+      /*      var Employee = function(name) {
+               this.name = name;
+           };
+           var e1 = new Employee('PA');
+           var e2 = new Employee('KK');
+           //console.log(e1 == e2);
+           console.log(e1.__proto__ === e2.__proto__); */
+
+           /* var Employee = function(name) {
+               this.name = name;
+
+               //member funciton
+               this.giveRaise = function() {
+
+               };
+           };
+
+           var e1 = new Employee('PA');
+           var e2 = new Employee('KK');
+           console.log(e1.giveRaise === e2.giveRaise); //output false
+           console.log(typeof Employee.prototype); //output object
+
+           console.log(Employee.prototype = Object.prototype); //output false */
+           
+           var Employee = function(name) {
+               this.name = name;
+               this.salary = 50000;
+           };
+           Employee.prototype.giveRaise = function(raise){
+                this.salary += raise;
+           }
+           var e1 = new Employee('PA');
+           var e2 = new Employee('NA');
+           //console.log(e1.giveRaise === e2.giveRaise);
+           e1.giveRaise(1000000);
+           console.log(e1.salary);
+           console.log(e2.salary);
+
+           //document.getElementById("output").innerHTML = e1.salary;
+           document.write(e1.salary);
+        </script>
+
+        <p id = "output"></p>
+
+    </body>
+</html>
